@@ -1,0 +1,11 @@
+.titulo-destaque{
+                font-size: 25px;
+                color: red;
+            }
+            .paragrafo-principal{
+                font-size: 15px;
+                color: blueviolet;
+            }
+            #titulo{
+                font-size: 30px; color: green;
+            }
