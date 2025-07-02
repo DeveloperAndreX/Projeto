@@ -1,2 +1,2 @@
-Projeto do Curso Superior de Analise de Sistemas. 
+Projeto do Curso Superior de Analise de Sistemas
 
