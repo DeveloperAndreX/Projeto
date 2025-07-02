@@ -3,7 +3,22 @@
         <meta charset="UTF-8">
         <meta name="description" content="">
         <title>Site - Exemplo </title>
-        <style></style>
+        <link rel="stylesheet" href="css/style.css">
+        <!-- trabalhando com classes-->
+         <style>
+            .titulo-destaque{
+                font-size: 25px;
+                color: red;
+            }
+            .paragrafo-principal{
+                font-size: 15px;
+                color: blueviolet;
+            }
+            #titulo{
+                font-size: 30px; color: green;
+            }
+         </style>
+       
     </head>
     <body>
      <div>
@@ -13,11 +28,15 @@
             
            <section>
             <!-- Produtos-->
-             <h1 style="font-size: 25px; color: red;">Meu Site de Exemplo</h1>
-             <p style="font-size: 25px; color: red;">Meu Paragrafo </p>
+             <h1 class="titulo-destaque">Meu Site de Exemplo</h1>
+             <p class="paragrafo-principal">Meu Paragrafo 1 </p>
+             <p id="titulo">Este e o paragrafo 2 </p>
            </section>
-           <section>
+           <section class="secao-clientes">
             <!-- clientes -->
+             <h1 class="titulo-clientes">Meus Produtos</h1>
+             <p class="paragrafo-clientes">Clientes Paragrafo 1</p>
+             
            </section>
            <section>
             <!-- cartões -->
