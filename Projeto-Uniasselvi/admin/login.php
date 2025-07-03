@@ -47,7 +47,7 @@
                     />
                   </div>
                   <div class="screen-input form-group">
-                    <label for="senha">Senha</label>
+                    <label for="senha">Password</label>
                     <input
                       type="password"
                       name="password"
@@ -58,9 +58,9 @@
                   </div>
                   <div class="btn-screen form-group">
                     <button type="submit" class="btn btn-primary">
-                      Entrar
+                      Acess
                     </button>
-                    <a id="recuperar-senha" href="#">Recuperar senha</a>
+                    <a id="recuperar-senha" href="#">Recover this Password</a>
                   </div>
                 </form>
               </div>
