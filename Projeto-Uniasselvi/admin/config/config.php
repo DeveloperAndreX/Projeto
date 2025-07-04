@@ -11,6 +11,6 @@ define("TITLE", "Painel Uniasselvi EAD");
 define("DB_HOST", "localhost");
 define("DB_USER", "root");
 define("DB_PASS", "");
-define("DB_SCHEMA", "blog_phpiando");
+define("DB_SCHEMA", "painel_uniasselvi");
 define("DB_PORT", "3306"); // quando for criar o banco, irei modificar a porta (Mysql)
 ?>
