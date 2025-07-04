@@ -9,6 +9,4 @@ if($db ->connect_errno){
 
 echo "sem erros";
 
-
-
 ?>
