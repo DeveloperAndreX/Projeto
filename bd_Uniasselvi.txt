@@ -1,0 +1,21 @@
+CREATE DATABASE painel_uniasselvi;
+USE painel_uniasselvi;
+CREATE TABLE users (
+id INT(2) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+nome VARCHAR(200) NOT NULL,
+email VARCHAR(200) NOT NULL,
+senha VARCHAR(200) NOT NULL,
+birthday DATE,
+created_at DATETIME,
+updated_at DATETIME,
+deleted_at DATETIME
+);
+INSERT INTO users(id, nome, email, senha, birthday) VALUES (null ,"PHPiando","andre@uniasselvi.com.br", md5('1234'),"2020-05-25");
+ALTER TABLE `painel_uniasselvi` . `users`
+	ADD  UNIQUE INDEX `email_unique` (`email`);
+SELECT * FROM users;
+
+
+// repositorio publico do sistema que desenvolvi: https://github.com/DeveloperAndreX/Projeto
+Este sistema de e referente a um painel administrativo de alunos da uniasselvi, este e o banco de dados Relacional
+que criei, onde se cadastra os usuarios, realiza as consultas, e se cadastra as senhas para o acesso do Painel
