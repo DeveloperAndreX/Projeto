@@ -35,8 +35,8 @@
                 <div class="profile_details">
                 <img src="img/logo1.jpg" alt="" />
                 <div class="name_job">
-                    <div class="name">Renan</div>
-                    <div class="job">Estágiario</div>
+                    <div class="name">Andre</div>
+                    <div class="job">Analista</div>
                 </div>
                 </div>
                 <i class="bx bxs-log-out" id="log_out"></i>
